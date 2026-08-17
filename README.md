@@ -8,6 +8,21 @@ Aplicación Android desarrollada como proyecto final universitario.
 
 La aplicación simula algunas funciones básicas de una app bancaria utilizando información almacenada localmente en el dispositivo.
 
+## Capturas de pantalla
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screenshots/inicio-sesion.png" alt="Pantalla de inicio de sesión" width="280"><br>
+      <em>Imagen 1. Inicio de sesión</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/pantalla-principal.png" alt="Pantalla principal" width="280"><br>
+      <em>Imagen 2. Pantalla principal</em>
+    </td>
+  </tr>
+</table>
+
 Incluye pantallas para:
 
 - Registro e inicio de sesión.
