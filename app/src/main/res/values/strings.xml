@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppBancaria</string>
+    <string-array name="telefonia">
+        <item>Telcel</item>
+        <item>Movistar</item>
+        <item>Unefon</item>
+        <item>AT&amp;T</item>
+    </string-array>
+</resources>

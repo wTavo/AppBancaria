@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainRecargaTiempoAire2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color"/>
+        <activity
+            android:name=".MainFacturaSinRetiro2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color" />
+        <activity
+            android:name=".MainFacturaSinRetiro"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color" />
+        <activity
+            android:name=".MainRetiroSinTarjeta2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainFacturaTransferencia"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color" />
+        <activity
+            android:name=".MainPagoServicios"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color" />
+        <activity
+            android:name=".MainRecargaTiempoAire"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".MainRetiroSinTarjeta"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color" />
+        <activity
+            android:name=".MainTransferencia"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainInicioCuenta"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Color" />
+        <activity
+            android:name=".MainOlvidePassword"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparente" />
+        <activity
+            android:name=".MainRegistro"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparente" />
+        <activity
+            android:name=".MainInicioSesion"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparente">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

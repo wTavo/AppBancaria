@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/transferir_item"
+        android:icon="@drawable/transferir"
+        android:title="Transferir" />
+    <item
+        android:id="@+id/retiro_sin_tarjeta_item"
+        android:icon="@drawable/retiro"
+        android:title="Retiro sin tarjeta" />
+    <item
+        android:id="@+id/mas_opciones_item"
+        android:icon="@drawable/opciones"
+        android:title="Más" />
+</menu>
